@@ -1,0 +1,245 @@
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                SQL injection vulnerability in the getStringParameterSQL method in main/java/org/dashbuilder/dataprovider/sql/dialect/DefaultDialect.java in Dashbuilder before 0.6.0.Beta1 allows remote attackers to execute arbitrary SQL commands via a data set lookup filter in the (1) Data Set Authoring or (2) Displayer editor UI.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                server/network/protocol/http/OHttpSessionManager.java in the Studio component in OrientDB Server Community Edition before 2.0.15 and 2.1.x before 2.1.1 improperly relies on the java.util.Random class for generation of random Session ID values, which makes it easier for remote attackers to predict a value by determining the internal state of the PRNG in this class.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Apereo Central Authentication Service (CAS) Server before 3.5.3 allows remote attackers to conduct LDAP injection attacks via a crafted username, as demonstrated by using a wildcard and a valid password to bypass LDAP authentication.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Cross-site scripting (XSS) vulnerability in web/servlet/tags/form/FormTag.java in Spring MVC in Spring Framework 3.0.0 before 3.2.8 and 4.0.0 before 4.0.2 allows remote attackers to inject arbitrary web script or HTML via the requested URI in a default action.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                The JavaScriptUtils.javaScriptEscape method in web/util/JavaScriptUtils.java in Spring MVC in Spring Framework before 3.2.2 does not properly escape certain characters, which allows remote attackers to conduct cross-site scripting (XSS) attacks via a (1) line separator or (2) paragraph separator Unicode character or (3) left or (4) right angle bracket.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                The authenticated-encryption feature in the symmetric-encryption implementation in the OWASP Enterprise Security API (ESAPI) for Java 2.x before 2.1.0.1 does not properly resist tampering with serialized ciphertext, which makes it easier for remote attackers to bypass intended cryptographic protection mechanisms via an attack against the intended cipher mode in a non-default configuration, a different vulnerability than CVE-2013-5679.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Application plugins in Apache CXF Fediz before 1.1.3 and 1.2.x before 1.2.1 allow remote attackers to cause a denial of service.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                The application plugins in Apache CXF Fediz 1.2.x before 1.2.3 and 1.3.x before 1.3.1 do not match SAML AudienceRestriction values against configured audience URIs, which might allow remote attackers to have bypass intended restrictions and have unspecified other impact via a crafted SAML token with a trusted signature.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                The Apache DeltaSpike-JSF 1.8.0 module has a XSS injection leak in the windowId handling. The default size of the windowId get's cut off after 10 characters (by default), so the impact might be limited. A fix got applied and released in Apache deltaspike-1.8.1.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                In Apache Karaf prior to 4.2.0 release, if the sshd service in Karaf is left on so an administrator can manage the running instance, any user with rights to the Karaf console can pivot and read/write any file on the file system to which the Karaf process user has access. This can be locked down a bit by using chroot to change the root directory to protect files outside of the Karaf install directory; it can be further locked down by defining a security manager policy that limits file system access to those directories beneath the Karaf home that are necessary for the system to run. However, this still allows anyone with ssh access to the Karaf process to read and write a large number of files as the Karaf process user.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                In Apache jUDDI 3.2 through 3.3.4, if using the WADL2Java or WSDL2Java classes, which parse a local or remote XML document and then mediates the data structures into UDDI data structures, there are little protections present against entity expansion and DTD type of attacks. Mitigation is to use 3.3.5.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                A DOM based cross-site scripting flaw was found in the JBoss Application Server 7 before 7.1.0 Beta 1 administration console. A remote attacker could provide a specially-crafted web page and trick the valid JBoss AS user, with the administrator privilege, to visit it, which would lead into the DOM environment modification and arbitrary HTML or web script execution.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                A CSRF issue was found in JBoss Application Server 7 before 7.1.0. JBoss did not properly restrict access to the management console information (for example via the ""Access-Control-Allow-Origin"" HTTP access control flag). This can lead to unauthorized information leak if a user with admin privileges visits a specially-crafted web page provided by a remote attacker.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                JRuby before 1.6.5.1 computes hash values without restricting the ability to trigger hash collisions predictably, which allows context-dependent attackers to cause a denial of service (CPU consumption) via crafted input to an application that maintains a hash table.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Race condition in hawtjni-runtime/src/main/java/org/fusesource/hawtjni/runtime/Library.java in HawtJNI before 1.8, when a custom library path is not specified, allows local users to execute arbitrary Java code by overwriting a temporary JAR file with a predictable name in /tmp.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                The SourceHttpMessageConverter in Spring MVC in Spring Framework before 3.2.5 and 4.0.0.M1 through 4.0.0.RC1 does not disable external entity resolution, which allows remote attackers to read arbitrary files, cause a denial of service, and conduct CSRF attacks via crafted XML, aka an XML External Entity (XXE) issue, and a different vulnerability than CVE-2013-4152 and CVE-2013-7315.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Multiple XML External Entity (XXE) vulnerabilities in the (1) ExecutionHandler, (2) PollHandler, and (3) SubscriptionHandler classes in JBoss Seam Remoting in JBoss Seam 2 framework 2.3.1 and earlier, as used in JBoss Web Framework Kit, allow remote attackers to read arbitrary files and possibly have other impacts via a crafted XML file.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                The InterfaceGenerator handler in JBoss Seam Remoting in JBoss Seam 2 framework 2.3.1 and earlier, as used in JBoss Web Framework Kit, allows remote attackers to bypass the WebRemote annotation restriction and obtain information about arbitrary classes and methods on the server classpath via unspecified vectors.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Cross-site request forgery (CSRF) vulnerability in Jolokia before 1.2.1 allows remote attackers to hijack the authentication of users for requests that execute MBeans methods via a crafted web page.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                The SslHandler in Netty before 3.9.2 allows remote attackers to cause a denial of service (infinite loop and CPU consumption) via a crafted SSLv2Hello message.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                JBoss KeyCloak: Open redirect vulnerability via failure to validate the redirect URL.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Cross-site scripting (XSS) vulnerability in the CORS functionality in Elasticsearch before 1.4.0.Beta1 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Directory traversal vulnerability in JBoss Undertow 1.0.x before 1.0.17, 1.1.x before 1.1.0.CR5, and 1.2.x before 1.2.0.Beta3, when running on Windows, allows remote attackers to read arbitrary files via a .. (dot dot) in a resource URI.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Directory traversal vulnerability in Elasticsearch before 1.4.5 and 1.5.x before 1.5.2, when a site plugin is enabled, allows remote attackers to read arbitrary files via unspecified vectors.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                The snapshot API in Elasticsearch before 1.6.0 when another application exists on the system that can read Lucene files and execute code from them, is accessible by the attacker, and the Java VM on which Elasticsearch is running can write to a location that the other application can read and execute from, allows remote authenticated users to write to and create arbitrary snapshot metadata files, and potentially execute arbitrary code.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                In the Bouncy Castle JCE Provider version 1.55 and earlier the DHIES implementation allowed the use of ECB mode. This mode is regarded as unsafe and support for it has been removed from the provider.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                In the Bouncy Castle JCE Provider version 1.55 and earlier the ECIES implementation allowed the use of ECB mode. This mode is regarded as unsafe and support for it has been removed from the provider.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                ActionServlet.java in Apache Struts 1 1.x through 1.3.10 mishandles multithreaded access to an ActionForm instance, which allows remote attackers to execute arbitrary code or cause a denial of service (unexpected memory access) via a multipart request, a related issue to CVE-2015-0899.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                ActionServlet.java in Apache Struts 1 1.x through 1.3.10 does not properly restrict the Validator configuration, which allows remote attackers to conduct cross-site scripting (XSS) attacks or cause a denial of service via crafted input, a related issue to CVE-2015-0899.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                org.springframework.core.serializer.DefaultDeserializer in Spring AMQP before 1.5.5 allows remote attackers to execute arbitrary code.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                XML external entity (XXE) vulnerability in XmlMapper in the Data format extension for Jackson (aka jackson-dataformat-xml) allows attackers to have unspecified impact via unknown vectors.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                The path normalization mechanism in PathResource class in Eclipse Jetty 9.3.x before 9.3.9 on Windows allows remote attackers to bypass protected resource restrictions and other security constraints via a URL with certain escaped characters, related to backslashes.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Apache Tika before 1.14 allows Java code execution for serialized objects embedded in MATLAB files. The issue exists because Tika invokes JMatIO to do native deserialization.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                Red Hat JBoss Enterprise Application Platform (EAP) 7, when operating as a reverse-proxy with default buffer sizes, allows remote attackers to cause a denial of service (CPU and disk consumption) via a long URL.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
+"
+                Can you categorize the following vulnerability description into these parts: affected library, affected version range, how to exploit the vulnerability, the functionality keywords involved during exploiting, and the remark. Try to use only the original words without new words. 
+                ```
+                XmlMapper in the Jackson XML dataformat component (aka jackson-dataformat-xml) before 2.7.8 and 2.8.x before 2.8.4 allows remote attackers to conduct server-side request forgery (SSRF) attacks via vectors related to a DTD.
+                ``` 
+                Please state clearly which parts they belong to. Also, please make it a table like output with only one row instead of a column
+                "
